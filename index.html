@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>KokoiLab</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Envíame tu canción</title>
+    <style>
+        body { margin: 0; background: #000; overflow: hidden; }
+        .wrapper {
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+        }
+        iframe {
+            width: 100%;
+            height: calc(100% + 100px); /* Ajusta para compensar el recorte */
+            border: none;
+            position: absolute;
+            top: -60px; /* Esto oculta la cabecera con el logo de VDJ */
+        }
+    </style>
 </head>
 <body>
-  <h1>KokoiLab</h1>
-  <p>Laboratorio creativo / tecnológico en evolución.</p>
+    <div class="wrapper">
+        <iframe src="https://ask.the.dj/TU_USUARIO"></iframe>
+    </div>
 </body>
 </html>
