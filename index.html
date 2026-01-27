@@ -1,27 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Envíame tu canción</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Peticiones - DJ Kokoi</title>
     <style>
-        body { margin: 0; background: #000; overflow: hidden; }
-        .wrapper {
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
             width: 100%;
-            height: 100vh;
-            overflow: hidden;
-            position: relative;
+            overflow: hidden; /* Bloquea el scroll de la página principal */
+            background-color: #1a1a1a; /* El color de fondo del formulario original */
         }
-        iframe {
+
+        /* El contenedor actúa como una "ventana" fija */
+        .window {
+            position: relative;
             width: 100%;
-            height: calc(60% + 100px); /* Ajusta para compensar el recorte */
-            border: none;
+            height: 380px; /* Ajustamos la altura para que solo se vea el form */
+            margin-top: 20px;
+            overflow: hidden; /* Esto es vital: corta lo que sobresalga */
+        }
+
+        iframe {
             position: absolute;
-            top: -60px; /* Esto oculta la cabecera con el logo de VDJ */
+            width: 100%;
+            height: 600px; /* Le damos más altura interna pero el contenedor la cortará */
+            border: none;
+            /* Subimos el iframe para ocultar el h1 y el h3 si quieres, 
+               o lo dejamos en 0 para que se vea "Send a request to kokoi" */
+            top: -20px; 
+            left: 0;
+        }
+
+        /* Tapadera inferior por si acaso el scroll falla en móviles */
+        .cover-bottom {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 120px; /* Tapa el logo y los textos de abajo */
+            background-color: #1a1a1a;
+            z-index: 10;
         }
     </style>
 </head>
 <body>
-    <div class="wrapper">
-        <iframe src="https://ask.the.dj/kokoi"></iframe>
+
+    <div class="window">
+        <iframe 
+            src="https://ask.the.dj/kokoi" 
+            scrolling="no">
+        </iframe>
     </div>
+    
+    <div class="cover-bottom"></div>
+
 </body>
 </html>
