@@ -1,76 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DJ KOKOI - Peticiones</title>
-    <style>
-        body { font-family: sans-serif; background: #121212; color: white; display: flex; justify-content: center; padding: 20px; }
-        .card { background: #1e1e1e; padding: 25px; border-radius: 15px; width: 100%; max-width: 400px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
-        h2 { color: #ff3e3e; margin-top: 0; }
-        label { display: block; margin: 10px 0 5px; font-size: 0.9em; opacity: 0.8; }
-        input { width: 100%; padding: 12px; border: 1px solid #333; border-radius: 8px; background: #252525; color: white; box-sizing: border-box; }
-        button { width: 100%; padding: 15px; margin-top: 20px; border: none; border-radius: 8px; background: #ff3e3e; color: white; font-weight: bold; cursor: pointer; }
-        #status { margin-top: 15px; text-align: center; font-size: 0.9em; display: none; }
-    </style>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light" />
+  <meta name="theme-color" content="#FAFAF8" />
+  <meta name="description" content="Kokoilab — Diseño y venta de muebles modulares de alta calidad para el hogar y la industria. Fabricados en Medellín, Colombia." />
+  <meta name="keywords" content="muebles modulares, diseño de muebles, mobiliario, Medellín, Colombia, kokoilab" />
+  <meta property="og:title" content="Kokoilab — Muebles Modulares" />
+  <meta property="og:description" content="Diseño y venta de muebles modulares de alta calidad. Hechos en Colombia." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <title>Kokoilab — Muebles Modulares</title>
 </head>
+
 <body>
-
-<div class="card">
-    <h2>DJ KOKOI</h2>
-    <p>Envía tu canción o saludo directamente a mi pantalla.</p>
-    
-    <form id="requestForm">
-        <label>Tu Nombre:</label>
-        <input type="text" id="name" name="name" placeholder="Opcional">
-        
-        <label>Canción o Mensaje:</label>
-        <input type="text" id="message" name="message" placeholder="¿Qué quieres escuchar?" required>
-        
-        <button type="submit" id="btn">ENVIAR PETICIÓN</button>
-    </form>
-    
-    <div id="status"></div>
-</div>
-
-<script>
-    const form = document.getElementById('requestForm');
-    const status = document.getElementById('status');
-
-    form.onsubmit = async (e) => {
-        e.preventDefault();
-        const btn = document.getElementById('btn');
-        btn.disabled = true;
-        btn.innerText = 'Enviando...';
-
-        const formData = new URLSearchParams();
-        formData.append('name', document.getElementById('name').value);
-        formData.append('message', document.getElementById('message').value);
-
-        try {
-            // Intentamos el envío al servidor de VDJ
-            await fetch('https://ask.the.dj/kokoi', {
-                method: 'POST',
-                mode: 'no-cors', // Esto evita errores de seguridad, aunque no deja leer la respuesta
-                body: formData,
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
-            });
-            
-            // Como usamos no-cors, asumimos que se envió
-            status.style.display = 'block';
-            status.style.color = '#4caf50';
-            status.innerText = '¡Petición enviada con éxito!';
-            form.reset();
-        } catch (error) {
-            status.style.display = 'block';
-            status.style.color = '#ff3e3e';
-            status.innerText = 'Error al enviar. Inténtalo de nuevo.';
-        } finally {
-            btn.disabled = false;
-            btn.innerText = 'ENVIAR OTRA';
-        }
-    };
-</script>
-
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
+
 </html>

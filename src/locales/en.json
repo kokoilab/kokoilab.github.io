@@ -1,0 +1,108 @@
+{
+  "header": {
+    "features": "Products",
+    "about": "About Us",
+    "contact": "Contact",
+    "cta": "Get in Touch",
+    "toggleMenu": "Toggle Menu"
+  },
+  "hero": {
+    "badge": "Kokoilab Studio // Modular Design",
+    "title": "Modular Furniture.",
+    "titleInnovative": "Designed for you.",
+    "subtitle": "We design and manufacture high-quality modular furniture for home and industry. Pieces built to adapt to your space and grow with you.",
+    "ctaExplore": "Browse Products",
+    "ctaPhilosophy": "Our Philosophy"
+  },
+  "features": {
+    "badge": "What Defines Us",
+    "title": "Design with Purpose",
+    "modules": {
+      "md01": {
+        "title": "Innovative Design",
+        "subtitle": "Thoughtful Shapes & Contemporary Aesthetics",
+        "description": "Every piece is born from a careful design process that balances functionality with aesthetics. Clean forms, balanced proportions, and details that make a difference in any space."
+      },
+      "hf02": {
+        "title": "Quality Materials",
+        "subtitle": "Wood, Metal & Premium Upholstery",
+        "description": "We select the finest materials: certified woods, high-strength metal structures, and premium upholstery. Durability and beauty that stand the test of time."
+      },
+      "in03": {
+        "title": "Assemble It Yourself",
+        "subtitle": "Easy Assembly & Flexible Configuration",
+        "description": "Intuitive assembly system that requires no special tools. Configure, rearrange, and expand your furniture to suit your needs. Your space, your rules."
+      }
+    }
+  },
+  "about": {
+    "badge": "Our Philosophy",
+    "title": "Functionality. Design. Quality.",
+    "description": "Kokoilab is a modular furniture design and manufacturing studio. We create intelligent furniture solutions that adapt to real people and spaces, with a strong commitment to craftsmanship and contemporary design.",
+    "pillars": {
+      "warmth": {
+        "title": "Total Modularity",
+        "subtitle": "Configure & Reconfigure Your Space",
+        "description": "Our modular systems adapt to any space and need. Add, remove, or rearrange pieces as your lifestyle evolves. Furniture that grows with you."
+      },
+      "precision": {
+        "title": "Artisan Quality",
+        "subtitle": "Hand-finished in Colombia",
+        "description": "Every piece of furniture is inspected and hand-finished in our workshop. We use selected materials and rigorous production processes to ensure each piece is durable and perfect."
+      },
+      "quality": {
+        "title": "Sustainable Design",
+        "subtitle": "Responsible Materials & Long Lifespan",
+        "description": "We believe in responsibly sourced materials and design that transcends passing trends. Furniture built to last decades, reduce waste, and care for the planet."
+      }
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Let's Talk About Your Space.",
+    "description": "Have questions about our modular furniture, need design advice, or want to place a custom order? Write to us, we're here to help.",
+    "emailLabel": "Official Email",
+    "hqLabel": "Studio & Workshop",
+    "hqValue": "Medellín, Colombia (EST. 2026)",
+    "status": "Studio status: Active and designing",
+    "success": {
+      "title": "Message Received",
+      "description": "Your message reached our studio. We will get back to you within 48 hours to help you design your ideal space.",
+      "cta": "Send Another Message"
+    },
+    "form": {
+      "nameLabel": "Your Name",
+      "namePlaceholder": "e.g. John Smith",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "e.g. john@email.com",
+      "messageLabel": "Your Message",
+      "messagePlaceholder": "Tell us about your space, what you need, or any questions you have...",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "errors": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "messageRequired": "Message is required"
+      }
+    }
+  },
+  "footer": {
+    "description": "Designing the future of modular furniture. Made with love in Medellín, Colombia.",
+    "products": "Products",
+    "productsList": {
+      "synthesizers": "For Home",
+      "modules": "For Industry",
+      "processors": "Special Editions"
+    },
+    "connect": "Follow Us",
+    "connectList": {
+      "github": "Instagram",
+      "discord": "Facebook",
+      "support": "WhatsApp"
+    },
+    "copyright": "© {{year}} Kokoilab. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

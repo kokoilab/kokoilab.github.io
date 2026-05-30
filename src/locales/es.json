@@ -1,0 +1,108 @@
+{
+  "header": {
+    "features": "Productos",
+    "about": "Sobre Nosotros",
+    "contact": "Contacto",
+    "cta": "Escríbenos",
+    "toggleMenu": "Alternar Menú"
+  },
+  "hero": {
+    "badge": "Kokoilab Studio // Diseño Modular",
+    "title": "Muebles Modulares.",
+    "titleInnovative": "Diseñados para ti.",
+    "subtitle": "Diseñamos y fabricamos muebles modulares de alta calidad para el hogar y la industria. Piezas pensadas para adaptarse a tu espacio y crecer contigo.",
+    "ctaExplore": "Ver Productos",
+    "ctaPhilosophy": "Nuestra Filosofía"
+  },
+  "features": {
+    "badge": "Lo Que Nos Define",
+    "title": "Diseño con Propósito",
+    "modules": {
+      "md01": {
+        "title": "Diseño Innovador",
+        "subtitle": "Formas pensadas & Estética contemporánea",
+        "description": "Cada pieza nace de un proceso de diseño cuidadoso que combina funcionalidad con estética. Formas limpias, proporciones equilibradas y detalles que marcan la diferencia en cualquier espacio."
+      },
+      "hf02": {
+        "title": "Materiales de Calidad",
+        "subtitle": "Madera, Metal & Tapizados Premium",
+        "description": "Seleccionamos los mejores materiales: maderas certificadas, estructuras metálicas de alta resistencia y tapizados premium. Durabilidad y belleza que se mantienen con el tiempo."
+      },
+      "in03": {
+        "title": "Armalo Tú Mismo",
+        "subtitle": "Ensamblaje Fácil & Configuración Flexible",
+        "description": "Sistema de ensamblaje intuitivo que no requiere herramientas especiales. Configura, reorganiza y amplía tus muebles según tus necesidades. Tu espacio, tus reglas."
+      }
+    }
+  },
+  "about": {
+    "badge": "Nuestra Filosofía",
+    "title": "Funcionalidad. Diseño. Calidad.",
+    "description": "Kokoilab es un estudio de diseño y fabricación de muebles modulares. Creamos soluciones de mobiliario inteligentes que se adaptan a las necesidades reales de las personas y los espacios, con un fuerte compromiso con la calidad artesanal y el diseño contemporáneo.",
+    "pillars": {
+      "warmth": {
+        "title": "Modularidad Total",
+        "subtitle": "Configura & Reconfigura tu Espacio",
+        "description": "Nuestros sistemas modulares se adaptan a cualquier espacio y necesidad. Añade, quita o reorganiza piezas según tu estilo de vida cambia. Un mueble que crece contigo."
+      },
+      "precision": {
+        "title": "Calidad Artesanal",
+        "subtitle": "Fabricado con Cuidado en Colombia",
+        "description": "Cada mueble es inspeccionado y terminado a mano en nuestro taller. Usamos materiales seleccionados y procesos de producción rigurosos para garantizar que cada pieza sea duradera y perfecta."
+      },
+      "quality": {
+        "title": "Diseño Sostenible",
+        "subtitle": "Materiales Responsables & Larga Vida Útil",
+        "description": "Apostamos por materiales de origen responsable y un diseño que trasciende modas pasajeras. Muebles pensados para durar décadas, reducir el desperdicio y cuidar el planeta."
+      }
+    }
+  },
+  "contact": {
+    "badge": "Contacto",
+    "title": "Hablemos de tu Espacio.",
+    "description": "¿Tienes preguntas sobre nuestros muebles modulares, necesitas asesoría de diseño o quieres hacer un pedido personalizado? Escríbenos, estamos para ayudarte.",
+    "emailLabel": "Correo Oficial",
+    "hqLabel": "Estudio & Taller",
+    "hqValue": "Medellín, Colombia (EST. 2026)",
+    "status": "Estado del estudio: Activo y diseñando",
+    "success": {
+      "title": "Mensaje Recibido",
+      "description": "Tu mensaje llegó a nuestro estudio. Te responderemos en menos de 48 horas para ayudarte a diseñar tu espacio ideal.",
+      "cta": "Enviar Otro Mensaje"
+    },
+    "form": {
+      "nameLabel": "Tu Nombre",
+      "namePlaceholder": "ej. María García",
+      "emailLabel": "Correo Electrónico",
+      "emailPlaceholder": "ej. maria@correo.com",
+      "messageLabel": "Tu Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tu espacio, qué necesitas o cualquier pregunta que tengas...",
+      "submit": "Enviar Mensaje",
+      "submitting": "Enviando...",
+      "errors": {
+        "nameRequired": "El nombre es obligatorio",
+        "emailRequired": "El correo es obligatorio",
+        "emailInvalid": "Por favor ingresa una dirección de correo válida",
+        "messageRequired": "El mensaje es obligatorio"
+      }
+    }
+  },
+  "footer": {
+    "description": "Diseñando el futuro del mobiliario modular. Hecho con amor en Medellín, Colombia.",
+    "products": "Productos",
+    "productsList": {
+      "synthesizers": "Para el Hogar",
+      "modules": "Para la Industria",
+      "processors": "Ediciones Especiales"
+    },
+    "connect": "Síguenos",
+    "connectList": {
+      "github": "Instagram",
+      "discord": "Facebook",
+      "support": "WhatsApp"
+    },
+    "copyright": "© {{year}} Kokoilab. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  }
+}
